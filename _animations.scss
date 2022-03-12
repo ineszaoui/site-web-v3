@@ -1,0 +1,102 @@
+@keyframes rotation1 {
+  0% {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+  }
+  25% {
+    transform: rotateZ(50deg);
+    -webkit-transform: rotateZ(50deg);
+    -moz-transform: rotateZ(50deg);
+    -ms-transform: rotateZ(50deg);
+    -o-transform: rotateZ(50deg);
+  }
+  50% {
+    transform: rotateZ(100deg);
+    -webkit-transform: rotateZ(100deg);
+    -moz-transform: rotateZ(100deg);
+    -ms-transform: rotateZ(100deg);
+    -o-transform: rotateZ(100deg);
+  }
+  75% {
+    transform: rotateZ(150deg);
+    -webkit-transform: rotateZ(150deg);
+    -moz-transform: rotateZ(150deg);
+    -ms-transform: rotateZ(150deg);
+    -o-transform: rotateZ(150deg);
+  }
+  100% {
+    transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg);
+  }
+}
+
+@keyframes flotte1 {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh);
+  }
+}
+
+@keyframes flotte2 {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh);
+  }
+}
+
+@keyframes flotte3 {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  80% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh);
+  }
+}

@@ -1,0 +1,297 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+@import "placeholders";
+@import "mixins";
+@import "animations";
+
+//$multicolor: rgb(random(255), random(255), random(255));
+$vertclair: #d7e3df;
+$vertfonce: #214231;
+$gris: #333333;
+$blanc: #faf8f8;
+
+* {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  @extend %flex;
+  flex-direction: column;
+  color: $vertfonce;
+}
+
+#presentation {
+  width: 1px;
+  height: 1px;
+}
+
+#contact {
+  width: 1px;
+  height: 1px;
+}
+
+h2 {
+  margin: 3vh 0;
+  color: $blanc;
+}
+
+nav {
+  @extend %flex;
+  position: fixed;
+  z-index: 5;
+  top: 20px;
+  width: 40vw;
+  height: 10vh;
+  background-color: $vertclair;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  ul {
+    @extend %flex;
+    width: 100%;
+    height: 100%;
+    a {
+      color: $vertfonce;
+      &:hover {
+        color: $blanc;
+      }
+    }
+  }
+}
+
+header {
+  @extend %flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  z-index: 0;
+  width: 100%;
+  height: 90vh;
+  background-color: $vertclair;
+  #divheader {
+    @extend %flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 50vh;
+    div {
+      @extend %flex;
+      width: 100%;
+      a {
+        padding: 3%;
+        transform: translateY(0px);
+        transition: 0.5s;
+        &:hover {
+          transform: translateY(-15px);
+          transition: 0.5s;
+        }
+      }
+      img {
+        width: 50px;
+      }
+    }
+  }
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 60vh 0 20vh 0;
+  z-index: 1;
+}
+
+section {
+  @extend %flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5% 0 0 0;
+  background: $blanc;
+  .cartess {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    height: 100%;
+  }
+  .carte {
+    width: 20vw;
+    height: fit-content;
+    background-color: $vertfonce;
+    color: $vertclair;
+    padding: 7%;
+    margin: 5%;
+    border-radius: 15px;
+    p {
+      margin: 3vh 0;
+      span {
+        font-style: italic;
+      }
+    }
+    ul {
+      li {
+        list-style: inside;
+      }
+    }
+    div {
+      @extend %flex;
+      justify-content: flex-end;
+    }
+    a {
+      width: 4vw;
+      padding: 5%;
+      border-radius: 50px;
+      transform: translateX(0px);
+      transition: 0.5s;
+      &:hover {
+        transform: translateX(10px);
+        transition: 0.5s;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+
+#rond1 {
+  @include rond($top: 20vh);
+}
+
+#rond2 {
+  @include rond($top: -20vh);
+}
+
+footer {
+  background-color: $vertclair;
+  @extend %flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 10vh;
+  z-index: 0;
+  a {
+    color: $vertfonce;
+    &:hover {
+      color: $blanc;
+    }
+  }
+  div {
+    @extend %flex;
+    width: 20vw;
+    img {
+      width: 50px;
+    }
+    a {
+      transform: translateY(0px);
+      transition: 0.5s;
+      &:hover {
+        transform: translateY(-15px);
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  nav {
+    width: 60vw;
+    height: 10vh;
+  }
+
+  main {
+    margin: 60vh 0 10vh 0;
+  }
+
+  section {
+    .cartess {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr 1fr;
+      width: 100%;
+      height: 100%;
+    }
+    .carte {
+      width: 30vw;
+      a {
+        width: 6vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  nav {
+    width: 60vw;
+    height: 10vh;
+  }
+
+  main {
+    margin: 60vh 0 15vh 0;
+  }
+
+  section {
+    .cartess {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr;
+      width: 100%;
+      height: 100%;
+    }
+    .carte {
+      width: 40vw;
+      a {
+        width: 8vw;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    width: 80vw;
+    height: 10vh;
+  }
+
+  #rond1,
+  #rond2 {
+    display: none;
+  }
+
+  main {
+    margin: 75vh 0 30vh 0;
+  }
+
+  section {
+    padding: 20vh 0 10vh 0;
+    .cartess {
+      display: grid;
+      justify-items: center;
+      grid-template-columns: 1fr;
+      width: 100%;
+      height: 100%;
+    }
+    .carte {
+      width: 70vw;
+      a {
+        width: 13vw;
+      }
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    height: max-content;
+    padding: 3vh;
+    div {
+      margin: 2vh;
+      width: 80vw;
+    }
+  }
+}

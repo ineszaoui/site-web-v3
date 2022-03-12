@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap");
+body, nav, nav ul, header, header #divheader, header #divheader div, section, section .carte div, footer, footer div { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: space-evenly; -ms-flex-pack: space-evenly; justify-content: space-evenly; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+@-webkit-keyframes rotation1 { 0% { transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg); }
+  25% { transform: rotateZ(50deg);
+    -webkit-transform: rotateZ(50deg);
+    -moz-transform: rotateZ(50deg);
+    -ms-transform: rotateZ(50deg);
+    -o-transform: rotateZ(50deg); }
+  50% { transform: rotateZ(100deg);
+    -webkit-transform: rotateZ(100deg);
+    -moz-transform: rotateZ(100deg);
+    -ms-transform: rotateZ(100deg);
+    -o-transform: rotateZ(100deg); }
+  75% { transform: rotateZ(150deg);
+    -webkit-transform: rotateZ(150deg);
+    -moz-transform: rotateZ(150deg);
+    -ms-transform: rotateZ(150deg);
+    -o-transform: rotateZ(150deg); }
+  100% { transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg); } }
+
+@keyframes rotation1 { 0% { transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg); }
+  25% { transform: rotateZ(50deg);
+    -webkit-transform: rotateZ(50deg);
+    -moz-transform: rotateZ(50deg);
+    -ms-transform: rotateZ(50deg);
+    -o-transform: rotateZ(50deg); }
+  50% { transform: rotateZ(100deg);
+    -webkit-transform: rotateZ(100deg);
+    -moz-transform: rotateZ(100deg);
+    -ms-transform: rotateZ(100deg);
+    -o-transform: rotateZ(100deg); }
+  75% { transform: rotateZ(150deg);
+    -webkit-transform: rotateZ(150deg);
+    -moz-transform: rotateZ(150deg);
+    -ms-transform: rotateZ(150deg);
+    -o-transform: rotateZ(150deg); }
+  100% { transform: rotateZ(0deg);
+    -webkit-transform: rotateZ(0deg);
+    -moz-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    -o-transform: rotateZ(0deg); } }
+
+@-webkit-keyframes flotte1 { 0% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  100% { transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh); } }
+
+@keyframes flotte1 { 0% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  100% { transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh); } }
+
+@-webkit-keyframes flotte2 { 0% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  50% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  100% { transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh); } }
+
+@keyframes flotte2 { 0% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  50% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  100% { transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh); } }
+
+@-webkit-keyframes flotte3 { 0% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  80% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  100% { transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh); } }
+
+@keyframes flotte3 { 0% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  80% { transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0); }
+  100% { transform: translateY(-100vh);
+    -webkit-transform: translateY(-100vh);
+    -moz-transform: translateY(-100vh);
+    -ms-transform: translateY(-100vh);
+    -o-transform: translateY(-100vh); } }
+
+* { font-family: "Inter", sans-serif; scroll-behavior: smooth; margin: 0; padding: 0; list-style: none; text-decoration: none; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; color: #214231; }
+
+#presentation { width: 1px; height: 1px; }
+
+#contact { width: 1px; height: 1px; }
+
+h2 { margin: 3vh 0; color: #faf8f8; }
+
+nav { position: fixed; z-index: 5; top: 20px; width: 40vw; height: 10vh; background-color: #d7e3df; border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px; -ms-border-radius: 50px; -o-border-radius: 50px; }
+
+nav ul { width: 100%; height: 100%; }
+
+nav ul a { color: #214231; }
+
+nav ul a:hover { color: #faf8f8; }
+
+header { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; position: fixed; top: 0; z-index: 0; width: 100%; height: 90vh; background-color: #d7e3df; }
+
+header #divheader { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 80vw; height: 50vh; }
+
+header #divheader div { width: 100%; }
+
+header #divheader div a { padding: 3%; -webkit-transform: translateY(0px); transform: translateY(0px); -webkit-transition: 0.5s; transition: 0.5s; }
+
+header #divheader div a:hover { -webkit-transform: translateY(-15px); transform: translateY(-15px); -webkit-transition: 0.5s; transition: 0.5s; }
+
+header #divheader div img { width: 50px; }
+
+main { width: 100%; height: 100%; position: relative; margin: 60vh 0 20vh 0; z-index: 1; }
+
+section { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; width: 100%; padding: 5% 0 0 0; background: #faf8f8; }
+
+section .cartess { display: -ms-grid; display: grid; justify-items: center; -ms-grid-columns: 1fr 1fr 1fr; grid-template-columns: 1fr 1fr 1fr; width: 100%; height: 100%; }
+
+section .carte { width: 20vw; height: -webkit-fit-content; height: -moz-fit-content; height: fit-content; background-color: #214231; color: #d7e3df; padding: 7%; margin: 5%; border-radius: 15px; }
+
+section .carte p { margin: 3vh 0; }
+
+section .carte p span { font-style: italic; }
+
+section .carte ul li { list-style: inside; }
+
+section .carte div { -webkit-box-pack: end; -ms-flex-pack: end; justify-content: flex-end; }
+
+section .carte a { width: 4vw; padding: 5%; border-radius: 50px; -webkit-transform: translateX(0px); transform: translateX(0px); -webkit-transition: 0.5s; transition: 0.5s; }
+
+section .carte a:hover { -webkit-transform: translateX(10px); transform: translateX(10px); -webkit-transition: 0.5s; transition: 0.5s; }
+
+section .carte img { width: 100%; }
+
+#rond1 { width: 100%; height: 40vh; background: #faf8f8; border-radius: 100%; z-index: -1; position: relative; top: 20vh; }
+
+#rond2 { width: 100%; height: 40vh; background: #faf8f8; border-radius: 100%; z-index: -1; position: relative; top: -20vh; }
+
+footer { background-color: #d7e3df; position: fixed; bottom: 0; width: 100%; height: 10vh; z-index: 0; }
+
+footer a { color: #214231; }
+
+footer a:hover { color: #faf8f8; }
+
+footer div { width: 20vw; }
+
+footer div img { width: 50px; }
+
+footer div a { -webkit-transform: translateY(0px); transform: translateY(0px); -webkit-transition: 0.5s; transition: 0.5s; }
+
+footer div a:hover { -webkit-transform: translateY(-15px); transform: translateY(-15px); -webkit-transition: 0.5s; transition: 0.5s; }
+
+@media screen and (max-width: 1200px) { nav { width: 60vw; height: 10vh; }
+  main { margin: 60vh 0 10vh 0; }
+  section .cartess { display: -ms-grid; display: grid; justify-items: center; -ms-grid-columns: 1fr 1fr; grid-template-columns: 1fr 1fr; width: 100%; height: 100%; }
+  section .carte { width: 30vw; }
+  section .carte a { width: 6vw; } }
+
+@media screen and (max-width: 900px) { nav { width: 60vw; height: 10vh; }
+  main { margin: 60vh 0 15vh 0; }
+  section .cartess { display: -ms-grid; display: grid; justify-items: center; -ms-grid-columns: 1fr; grid-template-columns: 1fr; width: 100%; height: 100%; }
+  section .carte { width: 40vw; }
+  section .carte a { width: 8vw; } }
+
+@media screen and (max-width: 600px) { nav { width: 80vw; height: 10vh; }
+  #rond1, #rond2 { display: none; }
+  main { margin: 75vh 0 30vh 0; }
+  section { padding: 20vh 0 10vh 0; }
+  section .cartess { display: -ms-grid; display: grid; justify-items: center; -ms-grid-columns: 1fr; grid-template-columns: 1fr; width: 100%; height: 100%; }
+  section .carte { width: 70vw; }
+  section .carte a { width: 13vw; }
+  footer { -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; height: -webkit-max-content; height: -moz-max-content; height: max-content; padding: 3vh; }
+  footer div { margin: 2vh; width: 80vw; } }
+/*# sourceMappingURL=style.min.css.map */
